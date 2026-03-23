@@ -3,7 +3,7 @@ Arquitectura Técnica — WhatsApp AI Bot (Gestión de Gastos y Tareas)
 
 ## 1. Descripción General
 Sistema conversacional basado en WhatsApp que permite gestionar gastos y tareas mediante lenguaje natural. Utiliza Gemini con Function Calling para ejecutar operaciones CRUD sobre PostgreSQL.
-##2. Arquitectura del Sistema
+## 2. Arquitectura del Sistema
 Flujo desde recepción de mensaje hasta respuesta generada por IA.
 
 Usuario -> WhatsApp -> Webhook -> Validación -> IA (Gemini)
